@@ -1,15 +1,16 @@
 #include <iostream>
+#define MAX 100
 using namespace std;
 void arel(int arr[], int s, int len)
 {
     if(s >= len)
         return;
-    cout<<arr[start]<<endl;
+    cout<<arr[s]<<endl;
     arel(arr, s + 1, len); 
 }
 int main()
 {
-    int arr[N];
+    int arr[MAX];
     int N, i;
     cout<<"Enter size of the array: ";
     cin>>N;
